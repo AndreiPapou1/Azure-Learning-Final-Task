@@ -1,0 +1,8 @@
+{
+  "ApplicationCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore",
+  "BlazorAdmin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\BlazorAdmin",
+  "BlazorShared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\BlazorShared",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure",
+  "PublicApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi",
+  "Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "Microsoft.eShopWeb.Web.Controllers.UserController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microsoft.eShopWeb.Web.Controllers.UserController",
+    "Method": "Logout",
+    "RelativePath": "user/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

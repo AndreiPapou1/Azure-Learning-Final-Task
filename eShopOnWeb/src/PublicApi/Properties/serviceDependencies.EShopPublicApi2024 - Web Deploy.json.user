@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2024-10-13T15:33:07.3315341Z"
+    },
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2024-10-12T17:11:52.5786808Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-10-13T15:32:21.0440873Z"
+    }
+  },
+  "parameters": {
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "EShopRG"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "f1dcefa9-655c-4756-a089-b56cca33f20e"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2024-10-13T15:34:51.5968455Z||;True|2024-10-13T17:19:24.5108833+02:00||;False|2024-10-13T17:17:58.1625239+02:00||;True|2024-10-13T15:34:31.2725323+02:00||;True|2024-10-12T19:15:09.4290848+02:00||;</History>
+    <LastFailureDetails />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA35Ox5TjGd06c7lWrf3MR9QAAAAACAAAAAAAQZgAAAAEAACAAAABWwaW13D467CYDJd5oDlpeIhZSzuP3V8rZpqnZBY9kzAAAAAAOgAAAAAIAACAAAADPHRC9lDmXO3TD7W5B8MCu1z7b5b0LdvhVlZHwMDY4RIAAAACEf33A/u9t/xsHf0xZyhHUBfslY/K8JKHP3XvukYn/Qy4mNE0xSww0jABmbSbZaGf1i08WS4nyH531qymDpacE/gpu89E3a2B8hfWKX3+/PSu6M6ywX0d12PAGu/8dR2eFgnBuPmEgQFoc8Ly/SDYe3pR9szUjJsRbvdwIxSwocEAAAADlrcZU5Z8I8IsWzk7uSEU4tIsNujppsD5HhYuVXZ3UnjI/wauXkHbyKk22lzhHOcF1J2nyXnrAIJ0axrc3j1Jc</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CatalogConnection">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bIntegrated Security=true%3bInitial Catalog=Microsoft.eShopOnWeb.CatalogDb%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="IdentityConnection">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bIntegrated Security=true%3bInitial Catalog=Microsoft.eShopOnWeb.CatalogDb%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

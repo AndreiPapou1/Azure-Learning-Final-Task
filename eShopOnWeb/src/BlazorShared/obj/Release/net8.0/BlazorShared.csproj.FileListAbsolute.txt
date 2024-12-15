@@ -1,0 +1,13 @@
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\bin\Release\net8.0\BlazorShared.deps.json
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\bin\Release\net8.0\BlazorShared.dll
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\bin\Release\net8.0\BlazorShared.pdb
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\BlazorShared.csproj.AssemblyReference.cache
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\BlazorShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\BlazorShared.AssemblyInfoInputs.cache
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\BlazorShared.AssemblyInfo.cs
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\BlazorShared.csproj.CoreCompileInputs.cache
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\BlazorShared.sourcelink.json
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\BlazorShared.dll
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\refint\BlazorShared.dll
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\BlazorShared.pdb
+C:\Users\Andrei_Papou\azure_learning\eShopOnWeb\src\BlazorShared\obj\Release\net8.0\ref\BlazorShared.dll

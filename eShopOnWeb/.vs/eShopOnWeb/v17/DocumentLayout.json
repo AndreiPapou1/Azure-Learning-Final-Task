@@ -1,0 +1,663 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\applicationcore\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\applicationcore\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\infrastructure\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\infrastructure\\data\\config\\basketconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\config\\basketconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\applicationcore\\catalogsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\applicationcore\\catalogsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\applicationcore\\interfaces\\iapplogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\applicationcore\\interfaces\\iapplogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\infrastructure\\data\\queries\\basketqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\queries\\basketqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\pages\\basket\\checkout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\pages\\basket\\checkout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\applicationcore\\extensions\\guardextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\applicationcore\\extensions\\guardextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EFB5482-F942-4C3D-94B0-9B70596E6D0A}|tests\\FunctionalTests\\FunctionalTests.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\tests\\functionaltests\\web\\pages\\basket\\basketpagecheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EFB5482-F942-4C3D-94B0-9B70596E6D0A}|tests\\FunctionalTests\\FunctionalTests.csproj|solutionrelative:tests\\functionaltests\\web\\pages\\basket\\basketpagecheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\pages\\basket\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\pages\\basket\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\pages\\basket\\basketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\pages\\basket\\basketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\services\\basketviewmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\services\\basketviewmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\viewmodels\\orderdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\viewmodels\\orderdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\viewmodels\\catalogitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\viewmodels\\catalogitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\services\\catalogitemviewmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\services\\catalogitemviewmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\controllers\\api\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\api\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\applicationcore\\entities\\orderaggregate\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\applicationcore\\entities\\orderaggregate\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\applicationcore\\entities\\orderaggregate\\catalogitemordered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\applicationcore\\entities\\orderaggregate\\catalogitemordered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\applicationcore\\entities\\orderaggregate\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FED7440-2311-4D1E-958B-3E887C585CD2}|src\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\applicationcore\\entities\\orderaggregate\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\infrastructure\\data\\config\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\config\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\catalogitemendpoints\\catalogitemlistpagedendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\catalogitemendpoints\\catalogitemlistpagedendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\catalogitemendpoints\\catalogitemgetbyidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\catalogitemendpoints\\catalogitemgetbyidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\infrastructure\\logging\\loggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\logging\\loggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\catalogbrandendpoints\\catalogbrandlistendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\catalogbrandendpoints\\catalogbrandlistendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\catalogitemendpoints\\catalogitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\catalogitemendpoints\\catalogitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\infrastructure\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C461394-ABDC-43CD-A798-71249C58BA67}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\publicapi\\authendpoints\\authenticateendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E4F33C-4667-4A55-AF6A-740F84C4CF3A}|src\\PublicApi\\PublicApi.csproj|solutionrelative:src\\publicapi\\authendpoints\\authenticateendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|c:\\users\\andrei_papou\\azure_learning\\eshoponweb\\src\\web\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{227CF035-29B0-448D-97E4-944F9EA850E5}|src\\Web\\Web.csproj|solutionrelative:src\\web\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "src\\ApplicationCore\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Services\\OrderService.cs",
+              "RelativeToolTip": "src\\ApplicationCore\\Services\\OrderService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGQAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:08:51.222Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CatalogSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\CatalogSettings.cs",
+              "RelativeDocumentMoniker": "src\\ApplicationCore\\CatalogSettings.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\CatalogSettings.cs",
+              "RelativeToolTip": "src\\ApplicationCore\\CatalogSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:06:23.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\PublicApi\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\MappingProfile.cs",
+              "RelativeToolTip": "src\\PublicApi\\MappingProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:06:11.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Program.cs",
+              "RelativeToolTip": "src\\Web\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAFQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T22:34:40.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dependencies.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Dependencies.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Dependencies.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Dependencies.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Dependencies.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:20:57.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BasketConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Data\\Config\\BasketConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Config\\BasketConfiguration.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Data\\Config\\BasketConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\Config\\BasketConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:31:06.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BasketQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Data\\Queries\\BasketQueryService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Queries\\BasketQueryService.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Data\\Queries\\BasketQueryService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\Queries\\BasketQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:33:59.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAppLogger.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Interfaces\\IAppLogger.cs",
+              "RelativeDocumentMoniker": "src\\ApplicationCore\\Interfaces\\IAppLogger.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Interfaces\\IAppLogger.cs",
+              "RelativeToolTip": "src\\ApplicationCore\\Interfaces\\IAppLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:26:10.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\appsettings.json",
+              "RelativeToolTip": "src\\Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T16:45:44.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Checkout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Pages\\Basket\\Checkout.cshtml.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Pages\\Basket\\Checkout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Pages\\Basket\\Checkout.cshtml.cs",
+              "RelativeToolTip": "src\\Web\\Pages\\Basket\\Checkout.cshtml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAvwDgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:09:26.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GuardExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Extensions\\GuardExtensions.cs",
+              "RelativeDocumentMoniker": "src\\ApplicationCore\\Extensions\\GuardExtensions.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Extensions\\GuardExtensions.cs",
+              "RelativeToolTip": "src\\ApplicationCore\\Extensions\\GuardExtensions.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:08:43.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\PublicApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\Program.cs",
+              "RelativeToolTip": "src\\PublicApi\\Program.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAIBJwMEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:26:53.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BasketPageCheckout.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\tests\\FunctionalTests\\Web\\Pages\\Basket\\BasketPageCheckout.cs",
+              "RelativeDocumentMoniker": "tests\\FunctionalTests\\Web\\Pages\\Basket\\BasketPageCheckout.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\tests\\FunctionalTests\\Web\\Pages\\Basket\\BasketPageCheckout.cs",
+              "RelativeToolTip": "tests\\FunctionalTests\\Web\\Pages\\Basket\\BasketPageCheckout.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:08:05.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Pages\\Basket\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "src\\Web\\Pages\\Basket\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Pages\\Basket\\Checkout.cshtml",
+              "RelativeToolTip": "src\\Web\\Pages\\Basket\\Checkout.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T13:39:05.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BasketViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Pages\\Basket\\BasketViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Pages\\Basket\\BasketViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Pages\\Basket\\BasketViewModel.cs",
+              "RelativeToolTip": "src\\Web\\Pages\\Basket\\BasketViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:38:59.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BasketViewModelService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Services\\BasketViewModelService.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Services\\BasketViewModelService.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Services\\BasketViewModelService.cs",
+              "RelativeToolTip": "src\\Web\\Services\\BasketViewModelService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:33:48.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "src\\Web\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:32:03.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CatalogItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\ViewModels\\CatalogItemViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Web\\ViewModels\\CatalogItemViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\ViewModels\\CatalogItemViewModel.cs",
+              "RelativeToolTip": "src\\Web\\ViewModels\\CatalogItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:34:08.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\ViewModels\\OrderDetailViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Web\\ViewModels\\OrderDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\ViewModels\\OrderDetailViewModel.cs",
+              "RelativeToolTip": "src\\Web\\ViewModels\\OrderDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:34:11.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CatalogItemViewModelService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Services\\CatalogItemViewModelService.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Services\\CatalogItemViewModelService.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Services\\CatalogItemViewModelService.cs",
+              "RelativeToolTip": "src\\Web\\Services\\CatalogItemViewModelService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:33:18.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "src\\Web\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAjwIgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:32:22.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Controllers\\Api\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Controllers\\Api\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Controllers\\Api\\BaseApiController.cs",
+              "RelativeToolTip": "src\\Web\\Controllers\\Api\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:32:19.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CatalogItemOrdered.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Entities\\OrderAggregate\\CatalogItemOrdered.cs",
+              "RelativeDocumentMoniker": "src\\ApplicationCore\\Entities\\OrderAggregate\\CatalogItemOrdered.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Entities\\OrderAggregate\\CatalogItemOrdered.cs",
+              "RelativeToolTip": "src\\ApplicationCore\\Entities\\OrderAggregate\\CatalogItemOrdered.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:14:21.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Entities\\OrderAggregate\\OrderItem.cs",
+              "RelativeDocumentMoniker": "src\\ApplicationCore\\Entities\\OrderAggregate\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Entities\\OrderAggregate\\OrderItem.cs",
+              "RelativeToolTip": "src\\ApplicationCore\\Entities\\OrderAggregate\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:18:50.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Data\\Config\\OrderItemConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Config\\OrderItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Data\\Config\\OrderItemConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\Config\\OrderItemConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:14:05.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Entities\\OrderAggregate\\Order.cs",
+              "RelativeDocumentMoniker": "src\\ApplicationCore\\Entities\\OrderAggregate\\Order.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\ApplicationCore\\Entities\\OrderAggregate\\Order.cs",
+              "RelativeToolTip": "src\\ApplicationCore\\Entities\\OrderAggregate\\Order.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwAUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:13:45.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\PublicApi\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "src\\PublicApi\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:56:10.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CatalogItemListPagedEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\CatalogItemEndpoints\\CatalogItemListPagedEndpoint.cs",
+              "RelativeDocumentMoniker": "src\\PublicApi\\CatalogItemEndpoints\\CatalogItemListPagedEndpoint.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\CatalogItemEndpoints\\CatalogItemListPagedEndpoint.cs",
+              "RelativeToolTip": "src\\PublicApi\\CatalogItemEndpoints\\CatalogItemListPagedEndpoint.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwEAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:50:08.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CatalogItemGetByIdEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\CatalogItemEndpoints\\CatalogItemGetByIdEndpoint.cs",
+              "RelativeDocumentMoniker": "src\\PublicApi\\CatalogItemEndpoints\\CatalogItemGetByIdEndpoint.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\CatalogItemEndpoints\\CatalogItemGetByIdEndpoint.cs",
+              "RelativeToolTip": "src\\PublicApi\\CatalogItemEndpoints\\CatalogItemGetByIdEndpoint.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAACBjwBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:47:26.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\PublicApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\appsettings.json",
+              "RelativeToolTip": "src\\PublicApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAMBdwBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T16:45:25.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoggerAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Logging\\LoggerAdapter.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Logging\\LoggerAdapter.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Logging\\LoggerAdapter.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Logging\\LoggerAdapter.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:26:08.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CatalogBrandListEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\CatalogBrandEndpoints\\CatalogBrandListEndpoint.cs",
+              "RelativeDocumentMoniker": "src\\PublicApi\\CatalogBrandEndpoints\\CatalogBrandListEndpoint.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\CatalogBrandEndpoints\\CatalogBrandListEndpoint.cs",
+              "RelativeToolTip": "src\\PublicApi\\CatalogBrandEndpoints\\CatalogBrandListEndpoint.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:29:02.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CatalogItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\CatalogItemEndpoints\\CatalogItemDto.cs",
+              "RelativeDocumentMoniker": "src\\PublicApi\\CatalogItemEndpoints\\CatalogItemDto.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\CatalogItemEndpoints\\CatalogItemDto.cs",
+              "RelativeToolTip": "src\\PublicApi\\CatalogItemEndpoints\\CatalogItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:47:17.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "src\\Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "src\\Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAACBjwCAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T15:26:22.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "src\\Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "src\\Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T15:26:16.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "src\\Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "src\\Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T15:26:13.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\README.md",
+              "RelativeDocumentMoniker": "src\\PublicApi\\README.md",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\README.md",
+              "RelativeToolTip": "src\\PublicApi\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-10-12T14:39:24.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EfRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Data\\EfRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\EfRepository.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Infrastructure\\Data\\EfRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\EfRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:56:53.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthenticateEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\AuthEndpoints\\AuthenticateEndpoint.cs",
+              "RelativeDocumentMoniker": "src\\PublicApi\\AuthEndpoints\\AuthenticateEndpoint.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\PublicApi\\AuthEndpoints\\AuthenticateEndpoint.cs",
+              "RelativeToolTip": "src\\PublicApi\\AuthEndpoints\\AuthenticateEndpoint.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:47:44.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\libman.json",
+              "RelativeDocumentMoniker": "src\\Web\\libman.json",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\eShopOnWeb\\src\\Web\\libman.json",
+              "RelativeToolTip": "src\\Web\\libman.json",
+              "ViewState": "AgIAACIAAAAAAAAAAIBpwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T12:40:06.514Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

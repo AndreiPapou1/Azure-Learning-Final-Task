@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/EShopWebAPapou/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsIdentityConnection_7AC3A68AD4",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/eshoponweb-apapou/databases/EShopOnWeb.Identity",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:IdentityConnection",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/EShopWebAPapou/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsCatalogConnection_09BBBA4DEB",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/eshoponweb-apapou/databases/EShopOnWeb.Catalog",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:CatalogConnection",
+      "dynamicId": null
+    }
+  }
+}

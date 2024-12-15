@@ -1,0 +1,220 @@
+[
+  {
+    "ContainingType": "Microsoft.eShopWeb.PublicApi.AuthEndpoints.AuthenticateEndpoint",
+    "Method": "HandleAsync",
+    "RelativePath": "api/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microsoft.eShopWeb.PublicApi.AuthEndpoints.AuthenticateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.eShopWeb.PublicApi.AuthEndpoints.AuthenticateResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Microsoft.eShopWeb.PublicApi.CatalogBrandEndpoints.CatalogBrandListEndpoint",
+    "Method": "\u003CAddRoute\u003Eb__3_0",
+    "RelativePath": "api/catalog-brands",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.eShopWeb.PublicApi.CatalogBrandEndpoints.ListCatalogBrandsResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CatalogBrandEndpoints"
+    ]
+  },
+  {
+    "ContainingType": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.CatalogItemListPagedEndpoint",
+    "Method": "\u003CAddRoute\u003Eb__5_0",
+    "RelativePath": "api/catalog-items",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageIndex",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "catalogBrandId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "catalogTypeId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.ListPagedCatalogItemResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CatalogItemEndpoints"
+    ]
+  },
+  {
+    "ContainingType": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.CreateCatalogItemEndpoint",
+    "Method": "\u003CAddRoute\u003Eb__2_0",
+    "RelativePath": "api/catalog-items",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.CreateCatalogItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.CreateCatalogItemResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CatalogItemEndpoints"
+    ]
+  },
+  {
+    "ContainingType": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.UpdateCatalogItemEndpoint",
+    "Method": "\u003CAddRoute\u003Eb__2_0",
+    "RelativePath": "api/catalog-items",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.UpdateCatalogItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.UpdateCatalogItemResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CatalogItemEndpoints"
+    ]
+  },
+  {
+    "ContainingType": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.CatalogItemGetByIdEndpoint",
+    "Method": "\u003CAddRoute\u003Eb__2_0",
+    "RelativePath": "api/catalog-items/{catalogItemId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalogItemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.GetByIdCatalogItemResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CatalogItemEndpoints"
+    ]
+  },
+  {
+    "ContainingType": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.DeleteCatalogItemEndpoint",
+    "Method": "\u003CAddRoute\u003Eb__0_0",
+    "RelativePath": "api/catalog-items/{catalogItemId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalogItemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.eShopWeb.PublicApi.CatalogItemEndpoints.DeleteCatalogItemResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CatalogItemEndpoints"
+    ]
+  },
+  {
+    "ContainingType": "Microsoft.eShopWeb.PublicApi.CatalogTypeEndpoints.CatalogTypeListEndpoint",
+    "Method": "\u003CAddRoute\u003Eb__2_0",
+    "RelativePath": "api/catalog-types",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.eShopWeb.PublicApi.CatalogTypeEndpoints.ListCatalogTypesResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CatalogTypeEndpoints"
+    ]
+  }
+]

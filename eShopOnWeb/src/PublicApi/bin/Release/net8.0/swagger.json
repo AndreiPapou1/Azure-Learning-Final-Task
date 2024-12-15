@@ -1,0 +1,490 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "My API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/authenticate": {
+      "post": {
+        "tags": [
+          "AuthEndpoints"
+        ],
+        "summary": "Authenticates a user",
+        "description": "Authenticates a user",
+        "operationId": "auth.authenticate",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/AuthenticateRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/AuthenticateResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/catalog-brands": {
+      "get": {
+        "tags": [
+          "CatalogBrandEndpoints"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/ListCatalogBrandsResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/catalog-items/{catalogItemId}": {
+      "get": {
+        "tags": [
+          "CatalogItemEndpoints"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "catalogItemId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/GetByIdCatalogItemResponse"
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "CatalogItemEndpoints"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "catalogItemId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/DeleteCatalogItemResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/catalog-items": {
+      "get": {
+        "tags": [
+          "CatalogItemEndpoints"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "pageSize",
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "query",
+            "name": "pageIndex",
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "query",
+            "name": "catalogBrandId",
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "query",
+            "name": "catalogTypeId",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/ListPagedCatalogItemResponse"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "CatalogItemEndpoints"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/CreateCatalogItemRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/CreateCatalogItemResponse"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "CatalogItemEndpoints"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UpdateCatalogItemRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/UpdateCatalogItemResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/catalog-types": {
+      "get": {
+        "tags": [
+          "CatalogTypeEndpoints"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/ListCatalogTypesResponse"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "AuthenticateRequest": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "AuthenticateResponse": {
+      "type": "object",
+      "properties": {
+        "result": {
+          "type": "boolean"
+        },
+        "token": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        },
+        "isLockedOut": {
+          "type": "boolean"
+        },
+        "isNotAllowed": {
+          "type": "boolean"
+        },
+        "requiresTwoFactor": {
+          "type": "boolean"
+        }
+      }
+    },
+    "CatalogBrandDto": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "CatalogItemDto": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "price": {
+          "format": "double",
+          "type": "number"
+        },
+        "pictureUri": {
+          "type": "string"
+        },
+        "catalogTypeId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "catalogBrandId": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "CatalogTypeDto": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "CreateCatalogItemRequest": {
+      "type": "object",
+      "properties": {
+        "catalogBrandId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "catalogTypeId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "description": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "pictureUri": {
+          "type": "string"
+        },
+        "pictureBase64": {
+          "type": "string"
+        },
+        "pictureName": {
+          "type": "string"
+        },
+        "price": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    },
+    "CreateCatalogItemResponse": {
+      "type": "object",
+      "properties": {
+        "catalogItem": {
+          "$ref": "#/definitions/CatalogItemDto"
+        }
+      }
+    },
+    "DeleteCatalogItemResponse": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+    "GetByIdCatalogItemResponse": {
+      "type": "object",
+      "properties": {
+        "catalogItem": {
+          "$ref": "#/definitions/CatalogItemDto"
+        }
+      }
+    },
+    "ListCatalogBrandsResponse": {
+      "type": "object",
+      "properties": {
+        "catalogBrands": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CatalogBrandDto"
+          }
+        }
+      }
+    },
+    "ListCatalogTypesResponse": {
+      "type": "object",
+      "properties": {
+        "catalogTypes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CatalogTypeDto"
+          }
+        }
+      }
+    },
+    "ListPagedCatalogItemResponse": {
+      "type": "object",
+      "properties": {
+        "catalogItems": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CatalogItemDto"
+          }
+        },
+        "pageCount": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "UpdateCatalogItemRequest": {
+      "required": [
+        "description",
+        "name"
+      ],
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "maximum": 10000,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "catalogBrandId": {
+          "format": "int32",
+          "maximum": 10000,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "catalogTypeId": {
+          "format": "int32",
+          "maximum": 10000,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "description": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "pictureBase64": {
+          "type": "string"
+        },
+        "pictureUri": {
+          "type": "string"
+        },
+        "pictureName": {
+          "type": "string"
+        },
+        "price": {
+          "format": "double",
+          "maximum": 10000,
+          "minimum": 0.01,
+          "type": "number"
+        }
+      }
+    },
+    "UpdateCatalogItemResponse": {
+      "type": "object",
+      "properties": {
+        "catalogItem": {
+          "$ref": "#/definitions/CatalogItemDto"
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "Bearer": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header",
+      "description": "JWT Authorization header using the Bearer scheme. \\r\\n\\r\\n \r\n                      Enter 'Bearer' [space] and then your token in the text input below.\r\n                      \\r\\n\\r\\nExample: 'Bearer 12345abcdef'"
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
