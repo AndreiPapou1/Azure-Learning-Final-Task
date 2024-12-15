@@ -1,0 +1,11 @@
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\bin\Debug\net8.0\ReserverInfrastructure.deps.json
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\bin\Debug\net8.0\ReserverInfrastructure.dll
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\bin\Debug\net8.0\ReserverInfrastructure.pdb
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\obj\Debug\net8.0\ReserverInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\obj\Debug\net8.0\ReserverInfrastructure.AssemblyInfoInputs.cache
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\obj\Debug\net8.0\ReserverInfrastructure.AssemblyInfo.cs
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\obj\Debug\net8.0\ReserverInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\obj\Debug\net8.0\ReserverInfrastructure.dll
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\obj\Debug\net8.0\refint\ReserverInfrastructure.dll
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\obj\Debug\net8.0\ReserverInfrastructure.pdb
+C:\Users\Andrei_Papou\azure_learning\EShopWebOrderItemsReserver\ReserverInfrastructure\obj\Debug\net8.0\ref\ReserverInfrastructure.dll

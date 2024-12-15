@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{439B194C-7B48-4BAF-9EBD-A9F39D16E2BA}|DeliveryOrderProcessor\\DeliveryOrderProcessor.csproj|c:\\users\\andrei_papou\\azure_learning\\eshopweborderitemsreserver\\deliveryorderprocessor\\reservedeliveryorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439B194C-7B48-4BAF-9EBD-A9F39D16E2BA}|DeliveryOrderProcessor\\DeliveryOrderProcessor.csproj|solutionrelative:deliveryorderprocessor\\reservedeliveryorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439B194C-7B48-4BAF-9EBD-A9F39D16E2BA}|DeliveryOrderProcessor\\DeliveryOrderProcessor.csproj|c:\\users\\andrei_papou\\azure_learning\\eshopweborderitemsreserver\\deliveryorderprocessor\\deliveryorderprocessor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{439B194C-7B48-4BAF-9EBD-A9F39D16E2BA}|DeliveryOrderProcessor\\DeliveryOrderProcessor.csproj|solutionrelative:deliveryorderprocessor\\deliveryorderprocessor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6FDB4B-8C2B-4CA6-AF7E-D566674C9605}|OrderItemsReserver\\OrderItemsReserver.csproj|c:\\users\\andrei_papou\\azure_learning\\eshopweborderitemsreserver\\orderitemsreserver\\orderreserverbymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6FDB4B-8C2B-4CA6-AF7E-D566674C9605}|OrderItemsReserver\\OrderItemsReserver.csproj|solutionrelative:orderitemsreserver\\orderreserverbymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8617334C-18B4-4B9B-9410-2CA6D3ABC211}|ReserverInfrastructure\\ReserverInfrastructure.csproj|c:\\users\\andrei_papou\\azure_learning\\eshopweborderitemsreserver\\reserverinfrastructure\\reservedordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8617334C-18B4-4B9B-9410-2CA6D3ABC211}|ReserverInfrastructure\\ReserverInfrastructure.csproj|solutionrelative:reserverinfrastructure\\reservedordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6FDB4B-8C2B-4CA6-AF7E-D566674C9605}|OrderItemsReserver\\OrderItemsReserver.csproj|c:\\users\\andrei_papou\\azure_learning\\eshopweborderitemsreserver\\orderitemsreserver\\orderitemsreserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F6FDB4B-8C2B-4CA6-AF7E-D566674C9605}|OrderItemsReserver\\OrderItemsReserver.csproj|solutionrelative:orderitemsreserver\\orderitemsreserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6FDB4B-8C2B-4CA6-AF7E-D566674C9605}|OrderItemsReserver\\OrderItemsReserver.csproj|c:\\users\\andrei_papou\\azure_learning\\eshopweborderitemsreserver\\orderitemsreserver\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F6FDB4B-8C2B-4CA6-AF7E-D566674C9605}|OrderItemsReserver\\OrderItemsReserver.csproj|solutionrelative:orderitemsreserver\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeliveryOrderProcessor",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\DeliveryOrderProcessor\\DeliveryOrderProcessor.csproj",
+              "RelativeDocumentMoniker": "DeliveryOrderProcessor\\DeliveryOrderProcessor.csproj",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\DeliveryOrderProcessor\\DeliveryOrderProcessor.csproj",
+              "RelativeToolTip": "DeliveryOrderProcessor\\DeliveryOrderProcessor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T18:16:39.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReserveDeliveryOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\DeliveryOrderProcessor\\ReserveDeliveryOrder.cs",
+              "RelativeDocumentMoniker": "DeliveryOrderProcessor\\ReserveDeliveryOrder.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\DeliveryOrderProcessor\\ReserveDeliveryOrder.cs",
+              "RelativeToolTip": "DeliveryOrderProcessor\\ReserveDeliveryOrder.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T10:56:05.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderReserverByMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\OrderItemsReserver\\OrderReserverByMessage.cs",
+              "RelativeDocumentMoniker": "OrderItemsReserver\\OrderReserverByMessage.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\OrderItemsReserver\\OrderReserverByMessage.cs",
+              "RelativeToolTip": "OrderItemsReserver\\OrderReserverByMessage.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T18:38:10.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservedOrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\ReserverInfrastructure\\ReservedOrderModel.cs",
+              "RelativeDocumentMoniker": "ReserverInfrastructure\\ReservedOrderModel.cs",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\ReserverInfrastructure\\ReservedOrderModel.cs",
+              "RelativeToolTip": "ReserverInfrastructure\\ReservedOrderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:21:06.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderItemsReserver.csproj",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\OrderItemsReserver\\OrderItemsReserver.csproj",
+              "RelativeDocumentMoniker": "OrderItemsReserver\\OrderItemsReserver.csproj",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\OrderItemsReserver\\OrderItemsReserver.csproj",
+              "RelativeToolTip": "OrderItemsReserver\\OrderItemsReserver.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-18T18:31:14.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\OrderItemsReserver\\local.settings.json",
+              "RelativeDocumentMoniker": "OrderItemsReserver\\local.settings.json",
+              "ToolTip": "C:\\Users\\Andrei_Papou\\azure_learning\\EShopWebOrderItemsReserver\\OrderItemsReserver\\local.settings.json",
+              "RelativeToolTip": "OrderItemsReserver\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T20:07:05.565Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
